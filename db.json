@@ -1,0 +1,146 @@
+{
+  "$schema": "./node_modules/json-server/schema.json",
+  "posts": [
+    {
+      "isDeleted": true,
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "title": "another title",
+      "views": 200,
+      "isDeleted": true
+    },
+    {
+      "id": "3",
+      "title": "another title",
+      "views": 200,
+      "isDeleted": true
+    },
+    {
+      "id": "4",
+      "title": "chu tu",
+      "views": "900"
+    },
+    {
+      "id": "5",
+      "title": "5",
+      "views": "5"
+    },
+    {
+      "id": "6",
+      "title": "hahah",
+      "views": "999"
+    },
+    {
+      "id": "7",
+      "title": "hehehhe",
+      "views": "999"
+    },
+    {
+      "id": "99",
+      "title": "909999",
+      "views": "99"
+    },
+    {
+      "id": "9999",
+      "title": "99",
+      "views": "999",
+      "isDeleted": true
+    },
+    {
+      "id": "9999",
+      "title": "99",
+      "views": "999"
+    },
+    {
+      "id": "10000",
+      "title": "10",
+      "views": "100",
+      "isDeleted": false
+    },
+    {
+      "id": "10001",
+      "title": "12",
+      "views": "2",
+      "isDeleted": false
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "content": "a comment about post 1",
+      "postId": "1",
+      "isDeleted": true
+    },
+    {
+      "id": "2",
+      "content": "another comment about post 1",
+      "postId": "1",
+      "isDeleted": true
+    },
+    {
+      "id": "3",
+      "postId": "xin chao",
+      "content": "hello",
+      "isDeleted": true
+    },
+    {
+      "id": "4",
+      "postId": "3",
+      "content": "2",
+      "isDeleted": false
+    },
+    {
+      "id": "5",
+      "postId": "",
+      "content": "",
+      "isDeleted": true
+    },
+    {
+      "id": "6",
+      "postId": "5",
+      "content": "4",
+      "isDeleted": false
+    },
+    {
+      "id": "7",
+      "postId": "4",
+      "content": "123",
+      "isDeleted": false
+    },
+    {
+      "id": "8",
+      "postId": "5",
+      "content": "1",
+      "isDeleted": false
+    },
+    {
+      "id": "9",
+      "postId": "7",
+      "content": "12",
+      "isDeleted": false
+    },
+    {
+      "id": "10",
+      "postId": "4",
+      "content": "ab",
+      "isDeleted": false
+    },
+    {
+      "id": "11",
+      "postId": "4",
+      "content": "123",
+      "isDeleted": false
+    },
+    {
+      "id": "12",
+      "postId": "4",
+      "content": "1234",
+      "isDeleted": false
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
